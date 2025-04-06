@@ -1,0 +1,48 @@
+name: cowwnect
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  tflite_flutter: ^0.11.0
+  image_picker: ^1.1.2
+  image: ^4.1.3
+  permission_handler: ^11.4.0
+  google_generative_ai: ^0.4.6
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.3
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/cowwnect_app_icon.png"
+
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - assets/labels.txt
+    - assets/cow_breed_model.tflite
+    - assets/placeholder_cow.png
+
+
